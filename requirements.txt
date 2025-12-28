@@ -1,0 +1,20 @@
+# Core dependencies
+pikepdf==8.15.0
+tqdm==4.66.2
+
+# Jupyter & interactive environment
+notebook==7.2.2
+ipykernel==6.29.5
+jupyterlab==4.2.5
+
+# Development & linting
+flake8==7.1.1
+black==24.10.0
+isort==5.13.2
+
+# Documentation & repo polish
+mkdocs==1.6.1
+mkdocs-material==9.5.16
+
+# Optional utilities
+pytest==8.3.3
