@@ -32,6 +32,6 @@ Do not use it against files you do not own or have explicit permission to test.
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/Arsaln_Ahmd/pdf-cracker.git
+git clone https://github.com/ArsalnAhmd/pdf-cracker.git
 cd pdf-cracker
 pip install -r requirements.txt
