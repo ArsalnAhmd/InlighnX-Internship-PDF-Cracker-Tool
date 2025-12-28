@@ -1,2 +1,37 @@
-# InlighnX-Internship-PDF-Cracker-Tool
-PDF Password Cracker is an offensive cybersecurity internship project showcasing brute‑force and wordlist attacks on protected PDFs. Built with Python, it demonstrates multithreading, progress tracking, and secure coding practices. Intended for research and education only, highlighting ethical penetration testing skills.
+# PDF Password Cracker 🔐
+**Offensive Cybersecurity Internship Project**
+
+This project demonstrates a brute-force and wordlist-based approach to decrypting password-protected PDF files using Python.  
+It was developed as part of an **offensive security internship project** to showcase skills in:
+- Cryptography & password auditing
+- Multithreading with `ThreadPoolExecutor`
+- Progress tracking with `tqdm`
+- Secure coding practices in Python
+
+⚠️ **Disclaimer**: This tool is for **educational and research purposes only**.  
+Do not use it against files you do not own or have explicit permission to test.
+
+---
+
+## 🚀 Features
+- Wordlist-based PDF password cracking
+- On-the-fly password generation (charset + length range)
+- Multithreaded execution for faster cracking
+- Progress bar visualization with `tqdm`
+- Jupyter Notebook demo for interactive exploration
+
+---
+
+## 📂 Project Structure
+- `cracker.py` → CLI tool
+- `notebook_demo.ipynb` → Jupyter demo
+- `examples/` → Sample PDF + wordlist
+- `docs/` → Architecture & ethical notes
+
+---
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/Arsaln_Ahmd/pdf-cracker.git
+cd pdf-cracker
+pip install -r requirements.txt
